@@ -1,2 +1,0 @@
-# businessManagementApp
-businessManagementApp
