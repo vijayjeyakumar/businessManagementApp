@@ -1,0 +1,15 @@
+1.product mgmt -> user must be able to add the product so that it can be later used for billing. product wth price and quantity available 
+2.inventory mgmt  -> user shoudl be able to edit the available quantity in the inventory.
+3.billing -> user must be able to bill using id or somthing which is uniquely provided while prodcut is added to the inventory.
+4.Attendence mgmt -> 
+5.order management comes after billing to check old orders
+6.settings page?
+
+CORE :-
+1.windows App.
+2.Must connect to web for first time registration (user must be present in our database).
+3.Data should be stored in their local, should provide the ability to sync to our DB when required.
+
+
+Future aspects :-
+1.Admin must be able to access from mobile or any syystem using web.
