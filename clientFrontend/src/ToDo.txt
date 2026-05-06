@@ -1,9 +1,20 @@
 1.product mgmt -> user must be able to add the product so that it can be later used for billing. product wth price and quantity available 
+
+Add product  -> slect unint peices, litre, kg, item code, sale price (with or without tax). Then give tax percenttage optional.
+                userr must be able to edi the item .
+
+
+
 2.inventory mgmt  -> user shoudl be able to edit the available quantity in the inventory.
 3.billing -> user must be able to bill using id or somthing which is uniquely provided while prodcut is added to the inventory.
 4.Attendence mgmt -> 
 5.order management comes after billing to check old orders
 6.settings page?
+
+7.Add buisness address to register.
+8contact us in top bar
+9. shortcuts in setting based on shortcut we ned to be add items data etc.
+10 dashboard should have ssales coy total sales as per month year etc, view items on low stock 
 
 CORE :-
 1.windows App.

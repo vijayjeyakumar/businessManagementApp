@@ -6,6 +6,8 @@ import Register from '../pages/auth/Register';
 import Dashboard from '../pages/dashboard/Dashboard'
 import NotFound from '../pages/NotFound'
 import MainLayout from '../components/layout/MainLayout'
+import ProductsHome from '../pages/products/ProductsHome';
+import AddProduct from '../pages/products/Addproducts';
 
 const AppRouter = () => {
   return (
@@ -14,6 +16,7 @@ const AppRouter = () => {
       {/* Public */}
       <Route path={ROUTES.LOGIN} element={<Login />} />
       <Route path={ROUTES.REGISTER} element={<Register />} />
+   
 
       {/* Protected — MainLayout wraps all pages inside */}
       <Route element={<ProtectedRoute>
@@ -21,7 +24,9 @@ const AppRouter = () => {
           </ProtectedRoute> }  >
 
         <Route path={ROUTES.DASHBOARD} element={<Dashboard />} />
-        {/* later you add more pages here as children */}
+        <Route path={ROUTES.PRODUCTS} element={<ProductsHome/>}/>
+        <Route path={ROUTES.PRODUCTS_ADD} element={<AddProduct />} />
+        {/* <Route path={ROUTES.PRODUCTS_EDIT} element={<EditProduct />} /> */}
       </Route>
 
       {/* 404 */}
